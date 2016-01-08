@@ -1,4 +1,4 @@
-ata BST = Empty | Node Int BST BST
+data BST = Empty | Node Int BST BST
 
 t::BST
 t = (Node 11 ( Node 5 ( Node 2 Empty Empty) ( Node 7 Empty Empty) )( Node 19 Empty (Node 21 Empty Empty)))
